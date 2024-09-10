@@ -7,14 +7,33 @@
 
 import SwiftUI
 
+//import SwiftyBeaver
+//let logger = SwiftyBeaver.self
 @main
 struct BhagvadGitaApp: App {
+//    init() {
+//            let console = ConsoleDestination()
+//            logger.addDestination(console)
+//            // etc...
+//        }
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
     let persistenceController = PersistenceController.shared
-
+    @AppStorage("isOnBoarding") var isOnBoarding:Bool = false
+    @State var languageSetting = LanguageSetting()
     var body: some Scene {
         WindowGroup {
-            ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+            if isOnBoarding{
+                BGTabView()
+                    .environment(\.managedObjectContext, persistenceController.container.viewContext)
+                    .environment(languageSetting)
+                    .environment(\.locale,languageSetting.locale)
+            }else{
+                OnBoardingView()
+                    .environment(\.managedObjectContext, persistenceController.container.viewContext)
+                    .environment(languageSetting)
+                    .environment(\.locale,languageSetting.locale)
+            }
+           
         }
     }
 }

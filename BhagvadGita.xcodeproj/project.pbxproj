@@ -7,6 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		62582E722C8EC5410013585D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 62ED37BF2C6F7E7C00B88646 /* GoogleService-Info.plist */; };
+		62582E7A2C8EDB570013585D /* onBoardings.json in Resources */ = {isa = PBXBuildFile; fileRef = 62582E792C8EDB570013585D /* onBoardings.json */; };
+		62582E7F2C8EE2FD0013585D /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62582E7E2C8EE2FD0013585D /* PageControl.swift */; };
+		62582E832C8EEDCB0013585D /* OnBoardingInteriorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62582E822C8EEDCB0013585D /* OnBoardingInteriorView.swift */; };
+		62582E852C8EFC650013585D /* ChangeLanguagePopUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62582E842C8EFC650013585D /* ChangeLanguagePopUpView.swift */; };
+		62582E872C8F09370013585D /* RadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62582E862C8F09370013585D /* RadioButton.swift */; };
+		62582E892C8F0E890013585D /* LanguageSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62582E882C8F0E890013585D /* LanguageSetting.swift */; };
+		62900E972C9022DB00189C90 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62900E962C9022DB00189C90 /* HomeView.swift */; };
+		62900E992C9022EF00189C90 /* QuotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62900E982C9022EF00189C90 /* QuotesView.swift */; };
+		62900E9B2C90230600189C90 /* BGTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62900E9A2C90230600189C90 /* BGTabView.swift */; };
+		62900E9D2C90231C00189C90 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62900E9C2C90231C00189C90 /* AboutView.swift */; };
+		62900E9F2C90233100189C90 /* SavedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62900E9E2C90233100189C90 /* SavedView.swift */; };
+		62900EA12C903A8D00189C90 /* Color.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62900EA02C903A8D00189C90 /* Color.xcassets */; };
+		62900EA32C903AFE00189C90 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62900EA22C903AFE00189C90 /* Color+Extension.swift */; };
+		62900EA62C905CE300189C90 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62900EA52C905CE300189C90 /* SettingView.swift */; };
+		62900EA82C90639D00189C90 /* LanguageSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62900EA72C90639D00189C90 /* LanguageSelectionView.swift */; };
+		62AAEA962C7CB18A005A83AA /* OnBoardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62AAEA952C7CB18A005A83AA /* OnBoardingViewModel.swift */; };
+		62AAEA982C7CB1EC005A83AA /* OnBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62AAEA972C7CB1EC005A83AA /* OnBoardingView.swift */; };
+		62AAEA9A2C7CB20A005A83AA /* OnBoardingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62AAEA992C7CB20A005A83AA /* OnBoardingModel.swift */; };
+		62AAEA9D2C7CB631005A83AA /* LocalJsonLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62AAEA9C2C7CB631005A83AA /* LocalJsonLoader.swift */; };
 		62B679492C6F17C20011E5D4 /* BhagvadGitaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B679482C6F17C20011E5D4 /* BhagvadGitaApp.swift */; };
 		62B6794B2C6F17C20011E5D4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B6794A2C6F17C20011E5D4 /* ContentView.swift */; };
 		62B6794D2C6F17C30011E5D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62B6794C2C6F17C30011E5D4 /* Assets.xcassets */; };
@@ -16,6 +36,20 @@
 		62B6795F2C6F17C40011E5D4 /* BhagvadGitaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B6795E2C6F17C40011E5D4 /* BhagvadGitaTests.swift */; };
 		62B679692C6F17C40011E5D4 /* BhagvadGitaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B679682C6F17C40011E5D4 /* BhagvadGitaUITests.swift */; };
 		62B6796B2C6F17C40011E5D4 /* BhagvadGitaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B6796A2C6F17C40011E5D4 /* BhagvadGitaUITestsLaunchTests.swift */; };
+		62B6797D2C6F2E8D0011E5D4 /* ApiCalleriOS in Frameworks */ = {isa = PBXBuildFile; productRef = 62B6797C2C6F2E8D0011E5D4 /* ApiCalleriOS */; };
+		62B679802C6F2F1E0011E5D4 /* SwiftyBeaver in Frameworks */ = {isa = PBXBuildFile; productRef = 62B6797F2C6F2F1E0011E5D4 /* SwiftyBeaver */; };
+		62B679822C6F2F520011E5D4 /* BGLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B679812C6F2F520011E5D4 /* BGLogger.swift */; };
+		62B679842C6F3D920011E5D4 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B679832C6F3D920011E5D4 /* ContentViewModel.swift */; };
+		62B679862C6F3F710011E5D4 /* Injection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B679852C6F3F710011E5D4 /* Injection.swift */; };
+		62B6798B2C6F4F2F0011E5D4 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 62B6798D2C6F4F2F0011E5D4 /* Localizable.strings */; };
+		62ED37872C6F5CF400B88646 /* Strings+Generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62ED37852C6F5CF400B88646 /* Strings+Generated.swift */; };
+		62ED37A62C6F6E2100B88646 /* BgagvadGita-Dev.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 62ED37A52C6F6E2100B88646 /* BgagvadGita-Dev.xcconfig */; };
+		62ED37A82C6F6E3700B88646 /* BgagvadGita-Prod.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 62ED37A72C6F6E3700B88646 /* BgagvadGita-Prod.xcconfig */; };
+		62ED37AA2C6F6E4800B88646 /* BgagvadGita-Qa.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 62ED37A92C6F6E4800B88646 /* BgagvadGita-Qa.xcconfig */; };
+		62ED37AD2C6F704D00B88646 /* ConfigurationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62ED37AC2C6F704D00B88646 /* ConfigurationManager.swift */; };
+		62ED37B02C6F7C7500B88646 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 62ED37AF2C6F7C7500B88646 /* FirebaseAnalytics */; };
+		62ED37B22C6F7C7500B88646 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 62ED37B12C6F7C7500B88646 /* FirebaseCrashlytics */; };
+		62ED37C12C6F7EE800B88646 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62ED37C02C6F7EE800B88646 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +70,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		62582E792C8EDB570013585D /* onBoardings.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = onBoardings.json; sourceTree = "<group>"; };
+		62582E7E2C8EE2FD0013585D /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
+		62582E822C8EEDCB0013585D /* OnBoardingInteriorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingInteriorView.swift; sourceTree = "<group>"; };
+		62582E842C8EFC650013585D /* ChangeLanguagePopUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeLanguagePopUpView.swift; sourceTree = "<group>"; };
+		62582E862C8F09370013585D /* RadioButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioButton.swift; sourceTree = "<group>"; };
+		62582E882C8F0E890013585D /* LanguageSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageSetting.swift; sourceTree = "<group>"; };
+		62900E962C9022DB00189C90 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		62900E982C9022EF00189C90 /* QuotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesView.swift; sourceTree = "<group>"; };
+		62900E9A2C90230600189C90 /* BGTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BGTabView.swift; sourceTree = "<group>"; };
+		62900E9C2C90231C00189C90 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		62900E9E2C90233100189C90 /* SavedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedView.swift; sourceTree = "<group>"; };
+		62900EA02C903A8D00189C90 /* Color.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Color.xcassets; sourceTree = "<group>"; };
+		62900EA22C903AFE00189C90 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		62900EA52C905CE300189C90 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		62900EA72C90639D00189C90 /* LanguageSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageSelectionView.swift; sourceTree = "<group>"; };
+		62AAEA952C7CB18A005A83AA /* OnBoardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingViewModel.swift; sourceTree = "<group>"; };
+		62AAEA972C7CB1EC005A83AA /* OnBoardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingView.swift; sourceTree = "<group>"; };
+		62AAEA992C7CB20A005A83AA /* OnBoardingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingModel.swift; sourceTree = "<group>"; };
+		62AAEA9C2C7CB631005A83AA /* LocalJsonLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalJsonLoader.swift; sourceTree = "<group>"; };
 		62B679452C6F17C20011E5D4 /* BhagvadGita.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BhagvadGita.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62B679482C6F17C20011E5D4 /* BhagvadGitaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BhagvadGitaApp.swift; sourceTree = "<group>"; };
 		62B6794A2C6F17C20011E5D4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -48,6 +101,21 @@
 		62B679642C6F17C40011E5D4 /* BhagvadGitaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BhagvadGitaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		62B679682C6F17C40011E5D4 /* BhagvadGitaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BhagvadGitaUITests.swift; sourceTree = "<group>"; };
 		62B6796A2C6F17C40011E5D4 /* BhagvadGitaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BhagvadGitaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		62B679812C6F2F520011E5D4 /* BGLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BGLogger.swift; sourceTree = "<group>"; };
+		62B679832C6F3D920011E5D4 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		62B679852C6F3F710011E5D4 /* Injection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Injection.swift; sourceTree = "<group>"; };
+		62B6798C2C6F4F2F0011E5D4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		62B6798E2C6F50560011E5D4 /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/Localizable.strings; sourceTree = "<group>"; };
+		62ED37852C6F5CF400B88646 /* Strings+Generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Strings+Generated.swift"; sourceTree = SOURCE_ROOT; };
+		62ED37A52C6F6E2100B88646 /* BgagvadGita-Dev.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "BgagvadGita-Dev.xcconfig"; sourceTree = "<group>"; };
+		62ED37A72C6F6E3700B88646 /* BgagvadGita-Prod.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "BgagvadGita-Prod.xcconfig"; sourceTree = "<group>"; };
+		62ED37A92C6F6E4800B88646 /* BgagvadGita-Qa.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "BgagvadGita-Qa.xcconfig"; sourceTree = "<group>"; };
+		62ED37AB2C6F6FEB00B88646 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		62ED37AC2C6F704D00B88646 /* ConfigurationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurationManager.swift; sourceTree = "<group>"; };
+		62ED37BD2C6F7E5B00B88646 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		62ED37BE2C6F7E6C00B88646 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		62ED37BF2C6F7E7C00B88646 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		62ED37C02C6F7EE800B88646 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +123,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62B6797D2C6F2E8D0011E5D4 /* ApiCalleriOS in Frameworks */,
+				62ED37B22C6F7C7500B88646 /* FirebaseCrashlytics in Frameworks */,
+				62B679802C6F2F1E0011E5D4 /* SwiftyBeaver in Frameworks */,
+				62ED37B02C6F7C7500B88646 /* FirebaseAnalytics in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +147,126 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		62900E902C90225800189C90 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				62900E952C9022A000189C90 /* TabView */,
+				62900E942C90229200189C90 /* Quotes */,
+				62900E932C90227F00189C90 /* Saved */,
+				62900E922C90227900189C90 /* About */,
+				62900E912C90227100189C90 /* HomeView */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		62900E912C90227100189C90 /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				62900E962C9022DB00189C90 /* HomeView.swift */,
+			);
+			path = HomeView;
+			sourceTree = "<group>";
+		};
+		62900E922C90227900189C90 /* About */ = {
+			isa = PBXGroup;
+			children = (
+				62900E9C2C90231C00189C90 /* AboutView.swift */,
+			);
+			path = About;
+			sourceTree = "<group>";
+		};
+		62900E932C90227F00189C90 /* Saved */ = {
+			isa = PBXGroup;
+			children = (
+				62900E9E2C90233100189C90 /* SavedView.swift */,
+			);
+			path = Saved;
+			sourceTree = "<group>";
+		};
+		62900E942C90229200189C90 /* Quotes */ = {
+			isa = PBXGroup;
+			children = (
+				62900E982C9022EF00189C90 /* QuotesView.swift */,
+			);
+			path = Quotes;
+			sourceTree = "<group>";
+		};
+		62900E952C9022A000189C90 /* TabView */ = {
+			isa = PBXGroup;
+			children = (
+				62900E9A2C90230600189C90 /* BGTabView.swift */,
+			);
+			path = TabView;
+			sourceTree = "<group>";
+		};
+		62900EA42C905CC600189C90 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				62900EA52C905CE300189C90 /* SettingView.swift */,
+				62900EA72C90639D00189C90 /* LanguageSelectionView.swift */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		62AAEA902C7CB138005A83AA /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				62900EA42C905CC600189C90 /* Setting */,
+				62900E902C90225800189C90 /* Home */,
+				62AAEA912C7CB147005A83AA /* OnBoarding */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		62AAEA912C7CB147005A83AA /* OnBoarding */ = {
+			isa = PBXGroup;
+			children = (
+				62AAEA942C7CB165005A83AA /* Model */,
+				62AAEA932C7CB159005A83AA /* View */,
+				62AAEA922C7CB150005A83AA /* ViewModel */,
+			);
+			path = OnBoarding;
+			sourceTree = "<group>";
+		};
+		62AAEA922C7CB150005A83AA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				62AAEA952C7CB18A005A83AA /* OnBoardingViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		62AAEA932C7CB159005A83AA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				62AAEA972C7CB1EC005A83AA /* OnBoardingView.swift */,
+				62582E822C8EEDCB0013585D /* OnBoardingInteriorView.swift */,
+				62582E842C8EFC650013585D /* ChangeLanguagePopUpView.swift */,
+				62582E862C8F09370013585D /* RadioButton.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		62AAEA942C7CB165005A83AA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				62AAEA992C7CB20A005A83AA /* OnBoardingModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		62AAEA9B2C7CB613005A83AA /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				62582E792C8EDB570013585D /* onBoardings.json */,
+				62AAEA9C2C7CB631005A83AA /* LocalJsonLoader.swift */,
+				62582E7E2C8EE2FD0013585D /* PageControl.swift */,
+				62582E882C8F0E890013585D /* LanguageSetting.swift */,
+				62900EA22C903AFE00189C90 /* Color+Extension.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
 		62B6793C2C6F17C20011E5D4 = {
 			isa = PBXGroup;
 			children = (
@@ -98,12 +290,24 @@
 		62B679472C6F17C20011E5D4 /* BhagvadGita */ = {
 			isa = PBXGroup;
 			children = (
+				62AAEA9B2C7CB613005A83AA /* Utility */,
+				62AAEA902C7CB138005A83AA /* UI */,
+				62ED37B32C6F7D2300B88646 /* Firebase */,
+				62ED37AB2C6F6FEB00B88646 /* Info.plist */,
+				62ED37A42C6F6E0900B88646 /* Configuration */,
+				62ED37852C6F5CF400B88646 /* Strings+Generated.swift */,
 				62B679482C6F17C20011E5D4 /* BhagvadGitaApp.swift */,
 				62B6794A2C6F17C20011E5D4 /* ContentView.swift */,
 				62B6794C2C6F17C30011E5D4 /* Assets.xcassets */,
 				62B679512C6F17C30011E5D4 /* Persistence.swift */,
 				62B679532C6F17C30011E5D4 /* BhagvadGita.xcdatamodeld */,
 				62B6794E2C6F17C30011E5D4 /* Preview Content */,
+				62B679812C6F2F520011E5D4 /* BGLogger.swift */,
+				62B679832C6F3D920011E5D4 /* ContentViewModel.swift */,
+				62B679852C6F3F710011E5D4 /* Injection.swift */,
+				62B6798D2C6F4F2F0011E5D4 /* Localizable.strings */,
+				62ED37C02C6F7EE800B88646 /* AppDelegate.swift */,
+				62900EA02C903A8D00189C90 /* Color.xcassets */,
 			);
 			path = BhagvadGita;
 			sourceTree = "<group>";
@@ -133,6 +337,51 @@
 			path = BhagvadGitaUITests;
 			sourceTree = "<group>";
 		};
+		62ED37A42C6F6E0900B88646 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				62ED37A52C6F6E2100B88646 /* BgagvadGita-Dev.xcconfig */,
+				62ED37A72C6F6E3700B88646 /* BgagvadGita-Prod.xcconfig */,
+				62ED37A92C6F6E4800B88646 /* BgagvadGita-Qa.xcconfig */,
+				62ED37AC2C6F704D00B88646 /* ConfigurationManager.swift */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		62ED37B32C6F7D2300B88646 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				62ED37B62C6F7D3700B88646 /* Qa */,
+				62ED37B52C6F7D3100B88646 /* Prod */,
+				62ED37B42C6F7D2C00B88646 /* Dev */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		62ED37B42C6F7D2C00B88646 /* Dev */ = {
+			isa = PBXGroup;
+			children = (
+				62ED37BF2C6F7E7C00B88646 /* GoogleService-Info.plist */,
+			);
+			path = Dev;
+			sourceTree = "<group>";
+		};
+		62ED37B52C6F7D3100B88646 /* Prod */ = {
+			isa = PBXGroup;
+			children = (
+				62ED37BE2C6F7E6C00B88646 /* GoogleService-Info.plist */,
+			);
+			path = Prod;
+			sourceTree = "<group>";
+		};
+		62ED37B62C6F7D3700B88646 /* Qa */ = {
+			isa = PBXGroup;
+			children = (
+				62ED37BD2C6F7E5B00B88646 /* GoogleService-Info.plist */,
+			);
+			path = Qa;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -140,15 +389,23 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 62B6796E2C6F17C40011E5D4 /* Build configuration list for PBXNativeTarget "BhagvadGita" */;
 			buildPhases = (
+				62582E732C8ECCFC0013585D /* swiftgen */,
 				62B679412C6F17C20011E5D4 /* Sources */,
 				62B679422C6F17C20011E5D4 /* Frameworks */,
 				62B679432C6F17C20011E5D4 /* Resources */,
+				62ED37C22C6F815D00B88646 /* Firebase */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = BhagvadGita;
+			packageProductDependencies = (
+				62B6797C2C6F2E8D0011E5D4 /* ApiCalleriOS */,
+				62B6797F2C6F2F1E0011E5D4 /* SwiftyBeaver */,
+				62ED37AF2C6F7C7500B88646 /* FirebaseAnalytics */,
+				62ED37B12C6F7C7500B88646 /* FirebaseCrashlytics */,
+			);
 			productName = BhagvadGita;
 			productReference = 62B679452C6F17C20011E5D4 /* BhagvadGita.app */;
 			productType = "com.apple.product-type.application";
@@ -219,8 +476,15 @@
 			knownRegions = (
 				en,
 				Base,
+				hi,
 			);
 			mainGroup = 62B6793C2C6F17C20011E5D4;
+			packageReferences = (
+				62B679772C6F2A350011E5D4 /* XCRemoteSwiftPackageReference "Swinject" */,
+				62B6797B2C6F2E8D0011E5D4 /* XCRemoteSwiftPackageReference "ApiCalleriOS" */,
+				62B6797E2C6F2F1E0011E5D4 /* XCRemoteSwiftPackageReference "SwiftyBeaver" */,
+				62ED37AE2C6F7C7500B88646 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 62B679462C6F17C20011E5D4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -237,8 +501,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62ED37A62C6F6E2100B88646 /* BgagvadGita-Dev.xcconfig in Resources */,
 				62B679502C6F17C30011E5D4 /* Preview Assets.xcassets in Resources */,
+				62B6798B2C6F4F2F0011E5D4 /* Localizable.strings in Resources */,
 				62B6794D2C6F17C30011E5D4 /* Assets.xcassets in Resources */,
+				62ED37AA2C6F6E4800B88646 /* BgagvadGita-Qa.xcconfig in Resources */,
+				62ED37A82C6F6E3700B88646 /* BgagvadGita-Prod.xcconfig in Resources */,
+				62582E7A2C8EDB570013585D /* onBoardings.json in Resources */,
+				62582E722C8EC5410013585D /* GoogleService-Info.plist in Resources */,
+				62900EA12C903A8D00189C90 /* Color.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,14 +529,77 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		62582E732C8ECCFC0013585D /* swiftgen */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = swiftgen;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = "/bin/sh ";
+			shellScript = "
+";
+		};
+		62ED37C22C6F815D00B88646 /* Firebase */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = Firebase;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		62B679412C6F17C20011E5D4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62B679862C6F3F710011E5D4 /* Injection.swift in Sources */,
+				62900EA32C903AFE00189C90 /* Color+Extension.swift in Sources */,
+				62582E852C8EFC650013585D /* ChangeLanguagePopUpView.swift in Sources */,
+				62582E832C8EEDCB0013585D /* OnBoardingInteriorView.swift in Sources */,
+				62AAEA9A2C7CB20A005A83AA /* OnBoardingModel.swift in Sources */,
+				62582E892C8F0E890013585D /* LanguageSetting.swift in Sources */,
+				62900E992C9022EF00189C90 /* QuotesView.swift in Sources */,
 				62B679522C6F17C30011E5D4 /* Persistence.swift in Sources */,
+				62ED37AD2C6F704D00B88646 /* ConfigurationManager.swift in Sources */,
+				62900E9F2C90233100189C90 /* SavedView.swift in Sources */,
+				62AAEA9D2C7CB631005A83AA /* LocalJsonLoader.swift in Sources */,
+				62582E7F2C8EE2FD0013585D /* PageControl.swift in Sources */,
 				62B6794B2C6F17C20011E5D4 /* ContentView.swift in Sources */,
+				62582E872C8F09370013585D /* RadioButton.swift in Sources */,
+				62B679842C6F3D920011E5D4 /* ContentViewModel.swift in Sources */,
+				62900E9D2C90231C00189C90 /* AboutView.swift in Sources */,
+				62B679822C6F2F520011E5D4 /* BGLogger.swift in Sources */,
+				62900E972C9022DB00189C90 /* HomeView.swift in Sources */,
+				62900EA82C90639D00189C90 /* LanguageSelectionView.swift in Sources */,
 				62B679552C6F17C30011E5D4 /* BhagvadGita.xcdatamodeld in Sources */,
+				62AAEA962C7CB18A005A83AA /* OnBoardingViewModel.swift in Sources */,
+				62ED37872C6F5CF400B88646 /* Strings+Generated.swift in Sources */,
+				62900EA62C905CE300189C90 /* SettingView.swift in Sources */,
+				62AAEA982C7CB1EC005A83AA /* OnBoardingView.swift in Sources */,
+				62900E9B2C90230600189C90 /* BGTabView.swift in Sources */,
+				62ED37C12C6F7EE800B88646 /* AppDelegate.swift in Sources */,
 				62B679492C6F17C20011E5D4 /* BhagvadGitaApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,12 +636,26 @@
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		62B6798D2C6F4F2F0011E5D4 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62B6798C2C6F4F2F0011E5D4 /* en */,
+				62B6798E2C6F50560011E5D4 /* hi */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
-		62B6796C2C6F17C40011E5D4 /* Debug */ = {
+		62B6796C2C6F17C40011E5D4 /* Debug-DEV */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62ED37A52C6F6E2100B88646 /* BgagvadGita-Dev.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -364,13 +712,15 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
-			name = Debug;
+			name = "Debug-DEV";
 		};
 		62B6796D2C6F17C40011E5D4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62ED37A72C6F6E3700B88646 /* BgagvadGita-Prod.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -422,7 +772,7 @@
 			};
 			name = Release;
 		};
-		62B6796F2C6F17C40011E5D4 /* Debug */ = {
+		62B6796F2C6F17C40011E5D4 /* Debug-DEV */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -432,23 +782,26 @@
 				DEVELOPMENT_ASSET_PATHS = "\"BhagvadGita/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BhagvadGita/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = demo.org.BhagvadGita;
+				PRODUCT_BUNDLE_IDENTIFIER = demo.org.BhagvadGita.dev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) Dev";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
-			name = Debug;
+			name = "Debug-DEV";
 		};
 		62B679702C6F17C40011E5D4 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -460,11 +813,13 @@
 				DEVELOPMENT_ASSET_PATHS = "\"BhagvadGita/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BhagvadGita/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -478,7 +833,7 @@
 			};
 			name = Release;
 		};
-		62B679722C6F17C40011E5D4 /* Debug */ = {
+		62B679722C6F17C40011E5D4 /* Debug-DEV */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -495,7 +850,7 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BhagvadGita.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BhagvadGita";
 			};
-			name = Debug;
+			name = "Debug-DEV";
 		};
 		62B679732C6F17C40011E5D4 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -516,7 +871,7 @@
 			};
 			name = Release;
 		};
-		62B679752C6F17C40011E5D4 /* Debug */ = {
+		62B679752C6F17C40011E5D4 /* Debug-DEV */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -531,7 +886,7 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = BhagvadGita;
 			};
-			name = Debug;
+			name = "Debug-DEV";
 		};
 		62B679762C6F17C40011E5D4 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -550,14 +905,658 @@
 			};
 			name = Release;
 		};
+		62ED378A2C6F655A00B88646 /* Debug-QA */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62ED37A92C6F6E4800B88646 /* BgagvadGita-Qa.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = "Debug-QA";
+		};
+		62ED378B2C6F655A00B88646 /* Debug-QA */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BhagvadGita/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BhagvadGita/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = demo.org.BhagvadGita.qa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) Qa";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Debug-QA";
+		};
+		62ED378C2C6F655A00B88646 /* Debug-QA */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = demo.org.BhagvadGitaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BhagvadGita.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BhagvadGita";
+			};
+			name = "Debug-QA";
+		};
+		62ED378D2C6F655A00B88646 /* Debug-QA */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = demo.org.BhagvadGitaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BhagvadGita;
+			};
+			name = "Debug-QA";
+		};
+		62ED378E2C6F657500B88646 /* Debug-PROD */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62ED37A72C6F6E3700B88646 /* BgagvadGita-Prod.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = "Debug-PROD";
+		};
+		62ED378F2C6F657500B88646 /* Debug-PROD */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BhagvadGita/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BhagvadGita/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = demo.org.BhagvadGita.prod;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) Prod";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Debug-PROD";
+		};
+		62ED37902C6F657500B88646 /* Debug-PROD */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = demo.org.BhagvadGitaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BhagvadGita.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BhagvadGita";
+			};
+			name = "Debug-PROD";
+		};
+		62ED37912C6F657500B88646 /* Debug-PROD */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = demo.org.BhagvadGitaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BhagvadGita;
+			};
+			name = "Debug-PROD";
+		};
+		62ED37962C6F65CC00B88646 /* Release-QA */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62ED37A92C6F6E4800B88646 /* BgagvadGita-Qa.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Release-QA";
+		};
+		62ED37972C6F65CC00B88646 /* Release-QA */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BhagvadGita/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BhagvadGita/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = demo.org.BhagvadGita.qa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = Qa;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Release-QA";
+		};
+		62ED37982C6F65CC00B88646 /* Release-QA */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = demo.org.BhagvadGitaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BhagvadGita.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BhagvadGita";
+			};
+			name = "Release-QA";
+		};
+		62ED37992C6F65CC00B88646 /* Release-QA */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = demo.org.BhagvadGitaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BhagvadGita;
+			};
+			name = "Release-QA";
+		};
+		62ED379A2C6F65D800B88646 /* Release-PROD */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62ED37A72C6F6E3700B88646 /* BgagvadGita-Prod.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Release-PROD";
+		};
+		62ED379B2C6F65D800B88646 /* Release-PROD */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BhagvadGita/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BhagvadGita/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = demo.org.BhagvadGita.prod;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = Prod;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Release-PROD";
+		};
+		62ED379C2C6F65D800B88646 /* Release-PROD */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = demo.org.BhagvadGitaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BhagvadGita.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BhagvadGita";
+			};
+			name = "Release-PROD";
+		};
+		62ED379D2C6F65D800B88646 /* Release-PROD */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = demo.org.BhagvadGitaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BhagvadGita;
+			};
+			name = "Release-PROD";
+		};
+		62ED379E2C6F65EB00B88646 /* Release-DEV */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62ED37A52C6F6E2100B88646 /* BgagvadGita-Dev.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Release-DEV";
+		};
+		62ED379F2C6F65EB00B88646 /* Release-DEV */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BhagvadGita/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BhagvadGita/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = demo.org.BhagvadGita.dev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = Dev;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Release-DEV";
+		};
+		62ED37A02C6F65EB00B88646 /* Release-DEV */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = demo.org.BhagvadGitaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BhagvadGita.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BhagvadGita";
+			};
+			name = "Release-DEV";
+		};
+		62ED37A12C6F65EB00B88646 /* Release-DEV */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = demo.org.BhagvadGitaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BhagvadGita;
+			};
+			name = "Release-DEV";
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		62B679402C6F17C20011E5D4 /* Build configuration list for PBXProject "BhagvadGita" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				62B6796C2C6F17C40011E5D4 /* Debug */,
+				62B6796C2C6F17C40011E5D4 /* Debug-DEV */,
+				62ED378E2C6F657500B88646 /* Debug-PROD */,
+				62ED378A2C6F655A00B88646 /* Debug-QA */,
 				62B6796D2C6F17C40011E5D4 /* Release */,
+				62ED379E2C6F65EB00B88646 /* Release-DEV */,
+				62ED379A2C6F65D800B88646 /* Release-PROD */,
+				62ED37962C6F65CC00B88646 /* Release-QA */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -565,8 +1564,13 @@
 		62B6796E2C6F17C40011E5D4 /* Build configuration list for PBXNativeTarget "BhagvadGita" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				62B6796F2C6F17C40011E5D4 /* Debug */,
+				62B6796F2C6F17C40011E5D4 /* Debug-DEV */,
+				62ED378F2C6F657500B88646 /* Debug-PROD */,
+				62ED378B2C6F655A00B88646 /* Debug-QA */,
 				62B679702C6F17C40011E5D4 /* Release */,
+				62ED379F2C6F65EB00B88646 /* Release-DEV */,
+				62ED379B2C6F65D800B88646 /* Release-PROD */,
+				62ED37972C6F65CC00B88646 /* Release-QA */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -574,8 +1578,13 @@
 		62B679712C6F17C40011E5D4 /* Build configuration list for PBXNativeTarget "BhagvadGitaTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				62B679722C6F17C40011E5D4 /* Debug */,
+				62B679722C6F17C40011E5D4 /* Debug-DEV */,
+				62ED37902C6F657500B88646 /* Debug-PROD */,
+				62ED378C2C6F655A00B88646 /* Debug-QA */,
 				62B679732C6F17C40011E5D4 /* Release */,
+				62ED37A02C6F65EB00B88646 /* Release-DEV */,
+				62ED379C2C6F65D800B88646 /* Release-PROD */,
+				62ED37982C6F65CC00B88646 /* Release-QA */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -583,13 +1592,76 @@
 		62B679742C6F17C40011E5D4 /* Build configuration list for PBXNativeTarget "BhagvadGitaUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				62B679752C6F17C40011E5D4 /* Debug */,
+				62B679752C6F17C40011E5D4 /* Debug-DEV */,
+				62ED37912C6F657500B88646 /* Debug-PROD */,
+				62ED378D2C6F655A00B88646 /* Debug-QA */,
 				62B679762C6F17C40011E5D4 /* Release */,
+				62ED37A12C6F65EB00B88646 /* Release-DEV */,
+				62ED379D2C6F65D800B88646 /* Release-PROD */,
+				62ED37992C6F65CC00B88646 /* Release-QA */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		62B679772C6F2A350011E5D4 /* XCRemoteSwiftPackageReference "Swinject" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Swinject/Swinject";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.9.1;
+			};
+		};
+		62B6797B2C6F2E8D0011E5D4 /* XCRemoteSwiftPackageReference "ApiCalleriOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/basant22/ApiCalleriOS";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		62B6797E2C6F2F1E0011E5D4 /* XCRemoteSwiftPackageReference "SwiftyBeaver" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyBeaver/SwiftyBeaver";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.1.1;
+			};
+		};
+		62ED37AE2C6F7C7500B88646 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		62B6797C2C6F2E8D0011E5D4 /* ApiCalleriOS */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 62B6797B2C6F2E8D0011E5D4 /* XCRemoteSwiftPackageReference "ApiCalleriOS" */;
+			productName = ApiCalleriOS;
+		};
+		62B6797F2C6F2F1E0011E5D4 /* SwiftyBeaver */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 62B6797E2C6F2F1E0011E5D4 /* XCRemoteSwiftPackageReference "SwiftyBeaver" */;
+			productName = SwiftyBeaver;
+		};
+		62ED37AF2C6F7C7500B88646 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 62ED37AE2C6F7C7500B88646 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		62ED37B12C6F7C7500B88646 /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 62ED37AE2C6F7C7500B88646 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		62B679532C6F17C30011E5D4 /* BhagvadGita.xcdatamodeld */ = {

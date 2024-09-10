@@ -5,3 +5,38 @@
   Created by Kumar Basant on 16/08/24.
   
 */
+"ContentView.bhagvad_gita_Chapter %@" = "Bhagvad Gita Chapter : %@";
+"ContentView.bhagvad_gita_Title" = "Bhagvad Gita";
+"Gita Updesh" = "Gita Updesh";
+"Chapter One" = "Chapter One";
+"Chapter Two" = "Chapter Two";
+"Chapter Three" = "Chapter Three";
+"Choose your preferred language" = "Choose your preferred language";
+"English" = "English";
+"Hindi" = "Hindi";
+"Don't worry you can change it later" = "Don't worry you can change it later";
+"Ok, Let's go!" = "Ok, Let's go!";
+"Skip" = "Skip";
+"Next" = "Next";
+"Change Language" = "Change Language";
+"tabview-home" = "Home";
+"tabview-quote" = "Quote";
+"tabview-save" = "Save";
+"tabview-about" = "About";
+"gita-sar" = "The Gita explains the difference between the transient body and the eternal soul, and the transmigration of the soul";
+"gita-start" = "The two armies had gathered on the battlefield of Kurukshetra, well prepared to fight a war that was inevitable. Still, in this verse, King Dhritarashtra asked Sanjay, what his sons and his brother Pandu’s sons were doing on the battlefield? It was apparent that they would fight, then why did he ask such a question?
+
+The blind King Dhritarashtra’s fondness for his own sons had clouded his spiritual wisdom and deviated him from the path of virtue. He had usurped the kingdom of Hastinapur from the rightful heirs; the Pandavas, sons of his brother Pandu. Feeling guilty of the injustice he had done towards his nephews, his conscience worried him about the outcome of this battle.
+
+The words dharma kṣhetre, the land of dharma (virtuous conduct) used by Dhritarashtra depict the dilemma he was experiencing.  Kurukshetra is described as kurukṣhetraṁ deva yajanam in the Shatapath Brahman, the Vedic textbook detailing rituals. It means “Kurukshetra is the sacrificial arena of the celestial gods.” Hence, it was regarded as the sacred land that nourished dharma.
+
+Dhritarashtra feared that the holy land might influence the minds of his sons. If it aroused the faculty of discrimination, they might turn away from killing their cousins and negotiate a truce. A peaceful settlement meant that the Pandavas would continue being a hindrance for them. He felt great displeasure at these possibilities, instead preferred that this war transpires. He was uncertain of the consequences of the war, yet desired to determine the fate of his sons. Therefore, he asked Sanjay about the activities of the two armies on the battleground.";
+"gita-content" = "The Bhagavad Gita, or the song of God, was revealed by Lord Shree Krishna to Arjun on the threshold of the epic war of Mahabharata. A decisive battle between two sets of cousins, the Kauravas and the Pandavas, was just about to commence on the battlefield of Kurukshetra. A detailed account of the reasons that led to such a colossal war; is given under Introduction-The Setting of the Bhagavad Gita.
+
+The Bhagavad Gita is primarily a conversation between Lord Shree Krishna and Arjun. However, the first chapter begins with a dialogue between King Dhritarashtra and his minister Sanjay. Dhritarashtra being blind, could not leave his palace in Hastinapur but was eager to know the ongoings of the battlefield.
+
+Sanjay was a disciple of Sage Ved Vyas, the author of the epic Mahabharata and several other Hindu scriptures. Sage Ved Vyas possessed a mystic ability to see and hear events occurring in distant places. He had bestowed upon Sanjay the miraculous power of distant vision. Therefore, Sanjay could see and hear, what transpired on the battleground of Kurukshetra, and gave a first-hand account to King Dhritarashtra while still being in his palace.";
+
+"setting-language" = "Language";
+"setting-title" = "Setting";
+"setting-save-change" = "Save Change";

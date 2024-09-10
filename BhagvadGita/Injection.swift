@@ -6,3 +6,7 @@
 //
 
 import Foundation
+final class Injection{
+    private let shared = Injection()
+    
+}

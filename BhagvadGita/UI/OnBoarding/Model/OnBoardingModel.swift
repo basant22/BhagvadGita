@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+struct OnBoardingModel:Decodable{
+    var image:String
+    var title:String
+    var description:String
+}
